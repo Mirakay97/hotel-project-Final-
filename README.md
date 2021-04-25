@@ -95,6 +95,7 @@ Run `ng generate component component-name`
 * https://github.com/bekatev
 * https://github.com/Mirakay97
 * https://github.com/Batongo
+* https://github.com/SANDROJV
 
 
 ## Screenshots
