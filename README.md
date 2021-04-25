@@ -8,6 +8,7 @@
 * [Imported Modules](#Imported-Modules)
 * [Contributors](#Contributors)
 * [Screenshots](#Screenshots)
+* [Detailed Documentation link](#Detailed-documentation-link)
 
 ## General description
 The project is mainly intended for B2B clients 
@@ -93,6 +94,7 @@ Run `ng generate component component-name`
 ## Contributors
 * https://github.com/bekatev
 * https://github.com/Mirakay97
+* https://github.com/Batongo
 
 
 ## Screenshots
@@ -103,3 +105,7 @@ https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screens
 https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screenshots/moreInfo.PNG
 https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screenshots/RoomsTable.PNG
 https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screenshots/RoomsInfoModal.PNG
+
+## Detailed Documentation link
+For more info please click the link below:
+https://github.com/Mirakay97/hotel-project-Final-/tree/master/documentation
