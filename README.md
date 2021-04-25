@@ -106,6 +106,7 @@ https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screens
 https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screenshots/moreInfo.PNG
 https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screenshots/RoomsTable.PNG
 https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screenshots/RoomsInfoModal.PNG
+![alt text](https://github.com/Mirakay97/hotel-project-Final-/blob/master/src/assets/screenshots/signUp.PNG "Logo Title Text 1")
 
 ## Detailed Documentation link
 For more info please click the link below:
