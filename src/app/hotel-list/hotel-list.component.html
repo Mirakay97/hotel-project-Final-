@@ -1,42 +1,35 @@
 <div class="container-fluid" style="border-radius: 10px; background-color: rgb(226, 240, 226);">
-  <!--<div class="cardsContainer">
-    <mat-grid-list cols="3" rowHeight="1:2">
-      <mat-grid-tile *ngFor="let hotel of hotels" (click)="selectHotel(hotel)" data-toggle="modal" data-target="#exampleModal">
-        <div class="card col" id="myCard">
-          <br>
-          <h2 class="card-text">{{ hotel.name }}</h2>
-         <br>
-         <img mat-card-md-image src="{{ hotel.imgURL }}" height="300px">
-         <br>
-          <div class="card-body">
-            <h3 class="card-text">Location: {{ hotel.location }}</h3>
-            
-            <h4 class="card-text">Price: $ {{ hotel.price}} </h4>
-            
-            <h4 class="card-text">Rooms: {{ hotel.rooms }}</h4>
-            
-            <mat-icon *ngIf="hotel.stars >= 1" class="yellow-icon">star</mat-icon>
-            <mat-icon *ngIf="hotel.stars >= 2" class="yellow-icon">star</mat-icon>
-            <mat-icon *ngIf="hotel.stars >= 3" class="yellow-icon">star</mat-icon>
-            <mat-icon *ngIf="hotel.stars >= 4" class="yellow-icon">star</mat-icon>
-            <mat-icon *ngIf="hotel.stars >= 5" class="yellow-icon">star</mat-icon>
-            <mat-icon *ngIf="5 - hotel.stars >= 1">star_border</mat-icon>
-            <mat-icon *ngIf="5 - hotel.stars >= 2">star_border</mat-icon>
-            <mat-icon *ngIf="5 - hotel.stars >= 3">star_border</mat-icon>
-            <mat-icon *ngIf="5 - hotel.stars >= 4">star_border</mat-icon>
-            <mat-icon *ngIf="5 - hotel.stars >= 5">star_border</mat-icon>
-            <mat-card-actions>
-              <br>
-              <br>
-              <button mat-flat-button class="btn" routerLink="/this-hotel" (click)="heroService.chooseHotel(hotel)" >More Info</button>
-              <br>
-            </mat-card-actions>
-          </div>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="../../assets/carousel/hallstatt-3609863_1280.jpg" alt="First slide">
         </div>
-      </mat-grid-tile>
-    </mat-grid-list>
-  </div>-->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../../assets/carousel/swimming-828795_1280.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="../../assets/carousel/window-3178666_1280.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <br>
+  </div>
   <div class="container-fluid">
+    <br>
     <button mat-flat-button class="btn" data-toggle="modal" data-target="#exampleModal1">Add Hotel from this
       page</button>
     <div class="row">

@@ -38,6 +38,11 @@ button {
     justify-content: space-around;
   
 }
+.carousel{
+ 
+    margin:auto;
+    
+}
 
 .card {
     background-color: #8fdabce1;
